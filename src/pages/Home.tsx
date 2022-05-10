@@ -1,22 +1,18 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import AboutArea from '../components/AboutArea';
+import BestPricingArea from '../components/BestPricingArea';
+import Footer from '../components/Footer';
+import Gallery from '../components/Gallery';
 import Header from '../components/Header';
+import Products from '../components/products';
 import ScrollerUp from '../components/ScrollerUp';
+import Services from '../components/Services';
 import SliderArea from '../components/SliderArea';
+import Team from '../components/Team';
 
-type MyProps = {
-    // using `interface` is also ok
-    message?: string;
-  };
-  type MyState = {
-    count: number; // like this
-  };
-  class Home extends React.Component<MyProps, MyState> {
-    state: MyState = {
-      // optional second annotation for better type inference
-      count: 0,
-    };
+
+class Home extends React.Component {
 
     componentDidMount () {
         const script = document.createElement("script");
@@ -35,6 +31,12 @@ type MyProps = {
           <SliderArea/>
           <AboutArea/>
           <ScrollerUp/>
+          <Services calledFromHome={true} />
+          <Products calledFromHome={true} />
+          <Team/>
+          <BestPricingArea/>
+          <Gallery/>
+          <Footer/>
       </>
       );
     }
