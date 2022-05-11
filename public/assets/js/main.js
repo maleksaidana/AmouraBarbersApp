@@ -154,7 +154,7 @@
     }
 
 // Team-active
-    $('.team-active').slick({
+    $('.team-active').not('.slick-initialized').slick({
         dots: true,
         infinite: true,
         speed: 300,

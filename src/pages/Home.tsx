@@ -14,25 +14,22 @@ import Team from '../components/Team';
 
 class Home extends React.Component {
 
-    componentDidMount () {
-        const script = document.createElement("script");
-        script.src = "./assets/js/main.js";
-        script.async = true;
-        document.body.appendChild(script);
-
-     
-    }
-
+  componentDidMount () {
+    const script = document.createElement("script");
+    script.src = "./assets/js/main.js";
+    script.async = true;
+    document.body.appendChild(script);
+  }
 
     render() {
       return (
         <>  
-          <Header/>
+          <Header currentPage='Home'/>
           <SliderArea/>
           <AboutArea/>
           <ScrollerUp/>
-          <Services calledFromHome={true} />
-          <Products calledFromHome={true} />
+          <Services calledFromHome />
+          <Products calledFromHome />
           <Team/>
           <BestPricingArea/>
           <Gallery/>

@@ -1,29 +1,33 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import AboutArea from '../components/AboutArea';
+import BestPricingArea from '../components/BestPricingArea';
+import Footer from '../components/Footer';
+import Gallery from '../components/Gallery';
+import Header from '../components/Header';
+import PageCover from '../components/PageCover';
+import ScrollerUp from '../components/ScrollerUp';
 
-type MyProps = {
-    // using `interface` is also ok
-    message?: string;
-  };
-  type MyState = {
-    count: number; // like this
-  };
-  class About extends React.Component<MyProps, MyState> {
-    state: MyState = {
-      // optional second annotation for better type inference
-      count: 0,
-    };
+
+  class About extends React.Component {
+
+    componentDidMount () {
+      const script = document.createElement("script");
+      script.src = "./assets/js/main.js";
+      script.async = true;
+      document.body.appendChild(script);
+    }
+
     render() {
       return (
         <>  
-        <h1>About</h1>        
-        <div>
-          <ul>
-            <li><Link to='/'>Home</Link></li>
-            <li><Link to='/about'>About</Link></li>
-          </ul>
-          <hr />
-        </div>   
+          <Header currentPage='About'/>
+          <PageCover pageName='A propos'/>
+          <AboutArea/>
+          <BestPricingArea/>
+          <Gallery/>
+          <Footer/>
+          <ScrollerUp/>
       </>    
       );
     }
