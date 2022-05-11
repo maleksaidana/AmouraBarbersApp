@@ -5,25 +5,35 @@ import BestPricingArea from '../components/BestPricingArea';
 import Footer from '../components/Footer';
 import Gallery from '../components/Gallery';
 import Header from '../components/Header';
+import Preloader from '../components/Preloader';
 import Products from '../components/products';
 import ScrollerUp from '../components/ScrollerUp';
 import Services from '../components/Services';
 import SliderArea from '../components/SliderArea';
 import Team from '../components/Team';
 
+type HomeState = {
+  isLoaded: boolean; 
+};
 
-class Home extends React.Component {
+type HomeProps = {
+};
+
+class Home extends React.Component<HomeProps,HomeState> {
+
 
   componentDidMount () {
     const script = document.createElement("script");
     script.src = "./assets/js/main.js";
     script.async = true;
     document.body.appendChild(script);
+ 
   }
 
     render() {
       return (
         <>  
+          <Preloader/>
           <Header currentPage='Home'/>
           <SliderArea/>
           <AboutArea/>

@@ -7,6 +7,15 @@ type HeaderProps = {
 
   class Header extends React.Component<HeaderProps> {
 
+
+    constructor(props: HeaderProps) {
+        super(props);
+    }
+    
+    componentDidMount(){
+        window.scrollTo(0, 0);
+    }
+
     render() {
       return (
 

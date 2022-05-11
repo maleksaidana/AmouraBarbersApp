@@ -4,6 +4,7 @@ import Header from '../components/Header';
 import Products from '../components/products';
 import PageCover from '../components/PageCover';
 import ScrollerUp from '../components/ScrollerUp';
+import Preloader from '../components/Preloader';
 
 
 class ProductsPage extends React.Component {
@@ -18,6 +19,7 @@ class ProductsPage extends React.Component {
     render() {
       return (
         <>  
+        <Preloader/>
         <Header currentPage='Products'/>
         <PageCover pageName='Produits'/>
         <ScrollerUp/>

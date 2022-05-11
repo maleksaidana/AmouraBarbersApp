@@ -6,6 +6,7 @@ import Footer from '../components/Footer';
 import Gallery from '../components/Gallery';
 import Header from '../components/Header';
 import PageCover from '../components/PageCover';
+import Preloader from '../components/Preloader';
 import ScrollerUp from '../components/ScrollerUp';
 
 
@@ -21,6 +22,7 @@ import ScrollerUp from '../components/ScrollerUp';
     render() {
       return (
         <>  
+          <Preloader/>
           <Header currentPage='About'/>
           <PageCover pageName='A propos'/>
           <AboutArea/>

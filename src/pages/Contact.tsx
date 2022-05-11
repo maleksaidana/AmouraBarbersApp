@@ -5,6 +5,7 @@ import Products from '../components/products';
 import PageCover from '../components/PageCover';
 import ScrollerUp from '../components/ScrollerUp';
 import Gallery from '../components/Gallery';
+import Preloader from '../components/Preloader';
 
 
 class Contact extends React.Component {
@@ -19,6 +20,7 @@ class Contact extends React.Component {
     render() {
       return (
         <>  
+        <Preloader/>
         <Header currentPage='Contact'/>
         <PageCover pageName='Contact'/>
         <ScrollerUp/>
