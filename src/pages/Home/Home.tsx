@@ -1,16 +1,16 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import AboutArea from '../components/AboutArea';
-import BestPricingArea from '../components/BestPricingArea';
-import Footer from '../components/Footer';
-import Gallery from '../components/Gallery';
-import Header from '../components/Header';
-import Preloader from '../components/Preloader';
-import Products from '../components/products';
-import ScrollerUp from '../components/ScrollerUp';
-import Services from '../components/Services';
-import SliderArea from '../components/SliderArea';
-import Team from '../components/Team';
+import AboutArea from '../../components/AboutArea/AboutArea';
+import BestPricingArea from '../../components/BestPricingArea/BestPricingArea';
+import Footer from '../../components/Footer/Footer';
+import Gallery from '../../components/Gallery/Gallery';
+import Header from '../../components/Header/Header';
+import Preloader from '../../components/Preloader/Preloader';
+import Products from '../../components/Products/products';
+import ScrollerUp from '../../components/ScrollerUp/ScrollerUp';
+import Services from '../../components/Services/Services';
+import SliderArea from '../../components/SliderArea/SliderArea';
+import Team from '../../components/Team/Team';
 
 type HomeState = {
   isLoaded: boolean; 

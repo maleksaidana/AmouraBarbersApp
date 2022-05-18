@@ -2,12 +2,12 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 import { Routes ,Route, Router, BrowserRouter, Link } from 'react-router-dom';
-import Home from './pages/Home';
-import About from './pages/About';
-import Products from './pages/Products';
-import Services from './pages/Services';
-import Portfolio from './pages/Portfolio';
-import Contact from './pages/Contact';
+import Home from './pages/Home/Home';
+import About from './pages/About/About';
+import Products from './pages/Products/Products';
+import Services from './pages/Services/Services';
+import Portfolio from './pages/Portfolio/Portfolio';
+import Contact from './pages/Contact/Contact';
 
 type MyProps = {
   // using `interface` is also ok

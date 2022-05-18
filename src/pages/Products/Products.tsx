@@ -1,10 +1,10 @@
 import React from 'react';
-import Footer from '../components/Footer';
-import Header from '../components/Header';
-import Products from '../components/products';
-import PageCover from '../components/PageCover';
-import ScrollerUp from '../components/ScrollerUp';
-import Preloader from '../components/Preloader';
+import Footer from '../../components/Footer/Footer';
+import Header from '../../components/Header/Header';
+import Products from '../../components/Products/products';
+import PageCover from '../../components/PageCover/PageCover';
+import ScrollerUp from '../../components/ScrollerUp/ScrollerUp';
+import Preloader from '../../components/Preloader/Preloader';
 
 
 class ProductsPage extends React.Component {

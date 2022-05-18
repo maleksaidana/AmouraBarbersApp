@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import Header from '../components/Header';
-import SliderArea from '../components/SliderArea';
+import Header from '../Header/Header';
+import SliderArea from '../SliderArea/SliderArea';
 
 type MyProps = {
     // using `interface` is also ok
