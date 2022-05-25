@@ -3,11 +3,9 @@ import React from 'react';
 
 class Booking extends React.Component {
 
-
-
-
     render() {
       return (
+          <>
         <section className="contact-section">
             <div className="container">
                 <div className="d-none d-sm-block mb-5 pb-4">
@@ -95,6 +93,7 @@ class Booking extends React.Component {
 
             </div>
         </section>
+        </>
       );
     }
   }

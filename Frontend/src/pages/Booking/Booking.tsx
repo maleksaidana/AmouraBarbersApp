@@ -14,7 +14,8 @@ class BookingPage extends React.Component {
         script.src = "./assets/js/main.js";
         script.async = true;
         document.body.appendChild(script);
-    }
+      }
+    
     
     render() {
       return (
@@ -22,8 +23,8 @@ class BookingPage extends React.Component {
         <Preloader/>
         <Header currentPage='Booking'/>
         <PageCover pageName='Rendez-Vous'/>
-        <ScrollerUp/>
         <Booking/>
+        <ScrollerUp/>
         <Footer/>
         </>
       );
