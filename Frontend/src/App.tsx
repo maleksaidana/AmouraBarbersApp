@@ -8,6 +8,7 @@ import Products from './pages/Products/Products';
 import Services from './pages/Services/Services';
 import Portfolio from './pages/Portfolio/Portfolio';
 import Contact from './pages/Contact/Contact';
+import BookingPage from './pages/Booking/Booking';
 
 type MyProps = {
   // using `interface` is also ok
@@ -32,6 +33,7 @@ class App extends React.Component<MyProps, MyState> {
            <Route path="/services" element={<Services />} />
            <Route path="/portfolio" element={<Portfolio />} />
            <Route path="/contact" element={<Contact />} />
+           <Route path="/booking" element={<BookingPage/>} />
      </Routes> 
      </BrowserRouter>
 
