@@ -27,7 +27,7 @@ type HeaderProps = {
                         <div className="row align-items-center">
                             <div className="col-xl-2 col-lg-2 col-md-1">
                                 <div className="logo">
-                                    <a href="index.html"><img width="40%" src="assets/img/logo/output-onlinepngtools.png" alt=""/></a>
+                                    <a href="index.html"><img src="assets/img/logo/output-onlinepngtools.png" alt=""/></a>
                                 </div>
                             </div>
                             <div className="col-xl-10 col-lg-10 col-md-10">
