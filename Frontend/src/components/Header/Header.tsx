@@ -49,7 +49,7 @@ type HeaderProps = {
                                         </nav>
                                     </div>
                                     <div className="header-right-btn f-right d-none d-lg-block ml-30">
-                                        <a className="btn header-btn"><Link  to="/booking">Rendez-vous</Link></a>
+                                        <Link  className="btn header-btn" to="/booking">Rendez-vous</Link>
                                     </div>
                                 </div>
                             </div>   

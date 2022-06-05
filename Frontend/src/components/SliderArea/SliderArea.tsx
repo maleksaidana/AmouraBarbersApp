@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 type MyProps = {
     // using `interface` is also ok
@@ -53,7 +54,7 @@ type MyProps = {
          <div className="thumb-content-box">
             <div className="thumb-content">
                 <h3>prendre rendez-vous maintenant</h3>
-                <a href="#"> <i className="fas fa-long-arrow-alt-right"></i></a>
+                <Link  to="/booking"><i className="fas fa-long-arrow-alt-right"></i></Link>
             </div>
         </div>
     </div>
