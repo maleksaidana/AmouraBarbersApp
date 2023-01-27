@@ -1,10 +1,10 @@
 import React from 'react';
 import Footer from '../../components/Footer/Footer';
 import Header from '../../components/Header/Header';
-import Products from '../../components/Products/products';
 import PageCover from '../../components/PageCover/PageCover';
 import ScrollerUp from '../../components/ScrollerUp/ScrollerUp';
 import Preloader from '../../components/Preloader/Preloader';
+import Services from '../../components/Services/Services';
 
 
 class ServicesPage extends React.Component {
@@ -23,7 +23,7 @@ class ServicesPage extends React.Component {
         <Header currentPage='Services'/>
         <PageCover pageName='Services'/>
         <ScrollerUp/>
-        <Products/>
+        <Services/>
         <Footer/>
         </>
       );

@@ -23,7 +23,7 @@ class Gallery extends React.Component {
                 <div className="row">
                     <div className="col-lg-4 col-md-6 col-sm-6">
                         <div className="box snake mb-30">
-                            <div className="gallery-img " style={{backgroundImage: "url(assets/img/gallery/menu2.png)"}}></div>
+                            <div className="gallery-img " style={{backgroundImage: "url(assets/img/gallery/menu2.jpg)"}}></div>
                             <div className="overlay"></div>
                         </div>
                     </div>

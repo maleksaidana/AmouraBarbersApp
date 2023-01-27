@@ -46,10 +46,10 @@ type MyProps = {
             </div>
         </div>
 
-        <div className="stock-text">
+        {/*<div className="stock-text">
             <h2>Soyez plus confiant</h2>
             <h2>Soyez plus confiant</h2>
-        </div>
+        </div>*/}
 
          <div className="thumb-content-box">
             <div className="thumb-content">

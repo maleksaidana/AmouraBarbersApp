@@ -14,8 +14,8 @@ import React from 'react';
                 <div className="row d-flex justify-content-center">
                     <div className="col-xl-7 col-lg-8 col-md-11 col-sm-11">
                         <div className="section-tittle text-center mb-90">
-                            <span>Professional Services</span>
-                            <h2>Our Best services that  we offering to you</h2>
+                            <span>Services professionnels</span>
+                            <h2>NOS MEILLEURS SERVICES QUE NOUS VOUS PROPOSONS</h2>
                         </div>
                     </div>
                 </div>
@@ -29,7 +29,7 @@ import React from 'react';
                             <div className="service-cap">
                                 <br/>
                                 <h4><a href="#">Coupe de cheveux</a></h4>
-                                <p>Sorem spsum dolor sit amsectetur adipisclit, seddo eiusmod tempor incididunt ut laborea.</p>
+                                <p>Des coupes de cheveux tendance chez notre coiffeur expérimenté.</p>
                             </div>
                         </div>
                     </div>
@@ -41,7 +41,7 @@ import React from 'react';
                             <div className="service-cap">
                                 <br/>
                                 <h4><a href="#">Barbe et rasage</a></h4>
-                                <p>Sorem spsum dolor sit amsectetur adipisclit, seddo eiusmod tempor incididunt ut laborea.</p>
+                                <p>Barbe parfaite et rasage professionnel chez notre coiffeur.</p>
                             </div>
                         </div>
                     </div> 
@@ -53,7 +53,7 @@ import React from 'react';
                             <div className="service-cap">
                                 <br/>
                                 <h4><a href="#">Coloration de cheveux</a></h4>
-                                <p>Sorem spsum dolor sit amsectetur adipisclit, seddo eiusmod tempor incididunt ut laborea.</p>
+                                <p>Coloration de cheveux sur mesure chez notre coiffeur expérimenté.</p>
                             </div>
                         </div>
                     </div>

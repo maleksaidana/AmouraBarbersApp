@@ -14,8 +14,8 @@ import React from 'react';
                 <div className="row d-flex justify-content-center">
                     <div className="col-xl-7 col-lg-8 col-md-11 col-sm-11">
                         <div className="section-tittle text-center mb-90">
-                            <span>Professional Services</span>
-                            <h2>Our Best services that  we offering to you</h2>
+                            <span>Produits de qualité</span>
+                            <h2>NOS MEILLEURS PRODUITS QUE NOUS VOUS PROPOSONS</h2>
                         </div>
                     </div>
                 </div>
@@ -29,7 +29,7 @@ import React from 'react';
                             <div className="service-cap">
                                 <br/>
                                 <h4><a href="#">Produits cheveux</a></h4>
-                                <p>Sorem spsum dolor sit amsectetur adipisclit, seddo eiusmod tempor incididunt ut laborea.</p>
+                                <p>Produits professionnels pour cheveux de qualité chez notre coiffeur.</p>
                             </div>
                         </div>
                     </div>
@@ -40,8 +40,8 @@ import React from 'react';
                             </div> 
                             <div className="service-cap">
                                 <br/>
-                                <h4><a href="#">Ceratine</a></h4>
-                                <p>Sorem spsum dolor sit amsectetur adipisclit, seddo eiusmod tempor incididunt ut laborea.</p>
+                                <h4><a href="#">Kératine</a></h4>
+                                <p>Traitement de la kératine pour des cheveux plus forts et plus beaux chez notre coiffeur.</p>
                             </div>
                         </div>
                     </div> 
@@ -52,8 +52,8 @@ import React from 'react';
                             </div> 
                             <div className="service-cap">
                                 <br/>
-                                <h4><a href="#">Produit visage</a></h4>
-                                <p>Sorem spsum dolor sit amsectetur adipisclit, seddo eiusmod tempor incididunt ut laborea.</p>
+                                <h4><a href="#">Produit Visages</a></h4>
+                                <p>"Meilleurs Soins professionnels pour le visage chez le meilleur coiffeur.</p>
                             </div>
                         </div>
                     </div>

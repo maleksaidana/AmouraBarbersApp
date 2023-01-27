@@ -20,13 +20,20 @@ class BestPricingArea extends React.Component {
                             <div className="col-lg-6 col-md-6 col-sm-6">
                                 <div className="pricing-list">
                                     <ul>
-                                        <li>Cheveux. . . . . . . . . . . . . . . . . . . . . . . . . . <span>$15</span></li>
-                                        <li>Cheveux + couleur. . . . . . . . . . . . . . . . . .  . . <span>$25</span></li>
-                                        <li>Cheveux + Style. . . . . . . . . . . . . . . . . . . . . .<span>$20</span></li>
-                                        <li>Ceratine. . . . . . . . . . . . . . . . . . . . . . . . . .<span>$60</span></li>
-                                        <li>Coupe + Ceratine. . . . . . . . . . . . . . . . . . . . . .<span>$65</span></li>
-                                        <li>Coupe + Ceratine + Barbe. . . . . . . . . . . . . . .  . . <span>$100</span></li>
-                                        <li>Coupe + Couleur + Barbe. . . . . . . . . . . . . . . . . . .<span>$100</span></li>
+                                        <li>Coupe. . . . . . . . . . . . . . . . . . . . . . . . . . <span>20$</span></li>
+                                        <li>Coupe et Barbe à partir de. . . . . . . . . . . . .  .  . . <span>25$</span></li>
+                                        <li>Coupe pour enfants. . . . . . . . . . . . . . . .. . . .<span>15$ - 20$</span></li>
+                                        <li>Cpupe avec ciseaux. . . . . . . . . . . . . . . . . . . . . .<span>22$</span></li>
+                                        <li>Contour d'oreille. . . . . . . . . . . . . . . . . . . . . .<span>10$</span></li>
+                                        <li>Contour d'oreille + Barbe. . . . . . . . . . . . . . .  . . <span>17$</span></li>
+                                        <li>Broaching. . . . . . . . . . . . . . . . . . .<span>10$</span></li>
+                                        <li>Kératine, protein, Botox à partir de (coupe inclus) . . . . . . . . . . . . . ..<span>100$</span></li>
+                                        <li>Lisage à partir de. . . . . . . . . . . . . . . . . . .<span>60$</span></li>
+                                        <li>Teinture coloration à partir de. . . . . . . . .  . . .<span>50$</span></li>
+                                        <li>Lavage de tête. . . . . . . . . . . . . . . . . . .<span>3$</span></li>
+                                        <li>Black mask. . . . . . . . . . . . . . . . . . .<span>5$</span></li>
+                                        <li>Epilation cire. . . . . . . . . . . . . . . . . . .<span>5$</span></li>
+                                        <li>Coupe VIP. . . . . . . . . . . . . . . . . . .<span>45$</span></li>
                                     </ul>
                                 </div>
                             </div>
@@ -49,7 +56,7 @@ class BestPricingArea extends React.Component {
 
             <div className="pricing-img">
                 <img className="pricing-img1" src="assets/img/gallery/menu1.jpg" alt=""/>
-                <img style={{borderLeft: "30px solid #d19f68", borderTop: "30px solid #d19f68"}} width="25%" className="pricing-img2" src="assets/img/gallery/menu2.png" alt=""/>
+                <img style={{borderLeft: "30px solid #d19f68", borderTop: "30px solid #d19f68"}} width="25%" className="pricing-img2" src="assets/img/gallery/menu2.jpg" alt=""/>
             </div>
         </div>
         );

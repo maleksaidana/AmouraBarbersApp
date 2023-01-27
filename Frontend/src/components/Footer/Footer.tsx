@@ -36,7 +36,7 @@ class Footer extends React.Component {
                                 <div className="footer-tittle">
                                     <h4>Localisation </h4>
                                     <ul>
-                                        <li><a href="https://www.google.com/maps?q=4374+jean+talon+ouest&rlz=1C1CHBF_enCA977CA977&um=1&ie=UTF-8&sa=X&ved=2ahUKEwiCueeO1ND3AhVfjYkEHRjrANcQ_AUoAXoECAEQAw">4374 Rue Jean-Talon O Montréal, QC  </a></li>
+                                        <li><a href="https://www.google.com/maps/place/Amoura+Barber%E2%80%99s/@45.5740201,-73.5852874,17z/data=!3m1!4b1!4m5!3m4!1s0x4cc91faa4bf95633:0x7e4ae05b000be5f9!8m2!3d45.5740355!4d-73.5853241?hl=fr-CA">4843 Rue Jean-Talon E Montréal, QC  </a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -46,7 +46,7 @@ class Footer extends React.Component {
                                 <div className="footer-tittle">
                                     <h4>Explorez</h4>
                                     <ul>
-                                        <li><a href="#">Mohamed Amoura Meilleur coiffeur ici a Montreal.</a></li>
+                                        <li>Mohamed Amoura Meilleur coiffeur ici a Montreal.</li>
                                     </ul>
                                 </div>
                             </div>
@@ -56,7 +56,7 @@ class Footer extends React.Component {
                                 <div className="footer-tittle">
                                     <h4>Email</h4>
                                     <div className="footer-pera">
-                                        <p className="info1">Send your Email to contact you</p>
+                                        <p className="info1">Contactez nous en envoyant un mail.</p>
                                     </div>
                                 </div>
 
