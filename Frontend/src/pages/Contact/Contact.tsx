@@ -28,7 +28,7 @@ class Contact extends React.Component {
         <section className="contact-section">
             <div className="container">
                 <div className="d-none d-sm-block mb-5 pb-4">
-                    <div style={{width: "100%"}}><iframe width="100%" height="600"  scrolling="no"  src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=2134%20jean%20talon+(Amoura%20Barber's)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"><a href="https://www.gps.ie/wearable-gps/">gps smartwatches</a></iframe></div>                </div>
+                    <div style={{width: "100%"}}><iframe width="100%" height="600"  scrolling="no"  src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=4843%20jean%20talon+(Amoura%20Barber's)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"><a href="https://www.gps.ie/wearable-gps/">gps smartwatches</a></iframe></div>                </div>
                 <div className="row">
                     <div className="col-12">
                         <h2 className="contact-title">Contactez-nous</h2>
@@ -67,7 +67,7 @@ class Contact extends React.Component {
                             <span className="contact-info__icon"><i className="ti-home"></i></span>
                             <div className="media-body">
                                 <h3>Montreal, Quebec.</h3>
-                                <p>Jean Talon Ouest, CA 91770</p>
+                                <p>4843 Rue Jean-Talon E Montréal, QC</p>
                             </div>
                         </div>
                         <div className="media contact-info">
@@ -80,7 +80,7 @@ class Contact extends React.Component {
                         <div className="media contact-info">
                             <span className="contact-info__icon"><i className="ti-email"></i></span>
                             <div className="media-body">
-                                <h3>sAmoura@gmail.com</h3>
+                                <h3>Amourabarbers@gmail.com</h3>
                                 <p>Contactez-nous a tous moment!</p>
                             </div>
                         </div>
